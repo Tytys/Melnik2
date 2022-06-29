@@ -27,12 +27,6 @@ namespace Melnik2
         {
             InitializeComponent();
         }
-        //Answer.Text =  Convert.ToString(Convert.ToDouble(Edit11.Text) * Convert.ToDouble(BigEdit22.Text) * Convert.ToDouble(BigEdit33.Text) +
-        //Convert.ToDouble(BigEdit12.Text)* Convert.ToDouble(BigEdit23.Text) * Convert.ToDouble(BigEdit31.Text) +
-        //               Convert.ToDouble(BigEdit21.Text)* Convert.ToDouble(BigEdit32.Text) * Convert.ToDouble(BigEdit13.Text)
-        //             - (Convert.ToDouble(BigEdit31.Text)* Convert.ToDouble(BigEdit22.Text) * Convert.ToDouble(BigEdit13.Text) +
-        //               Convert.ToDouble(BigEdit21.Text)* Convert.ToDouble(BigEdit12.Text) * Convert.ToDouble(BigEdit33.Text) +
-        //               Convert.ToDouble(BigEdit32.Text)* Convert.ToDouble(BigEdit23.Text) * Convert.ToDouble(BigEdit11.Text)));
         private void button2_Click(object sender, RoutedEventArgs e)
         {
             using (StreamReader rd = new StreamReader(path))

@@ -5,12 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Melnik2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="300" Width="600">
     <Grid>
-        <Button x:Name="button" Content="Файл" HorizontalAlignment="Left" Margin="71,75,0,0" VerticalAlignment="Top" Height="71" Width="99" Click="button_Click"/>
-        <Button x:Name="button1" Content="2" HorizontalAlignment="Left" Margin="400,130,0,0" VerticalAlignment="Top" Height="47" Width="66" Click="button1_Click"/>
-        <Button x:Name="button2" Content="3" HorizontalAlignment="Left" Margin="546,136,0,0" VerticalAlignment="Top" Click="button2_Click" Height="41" Width="78"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="353,295,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="52" Width="232"/>
+        <Button x:Name="button" Content="Выбирите Файл" HorizontalAlignment="Left" Margin="5,88,0,0" VerticalAlignment="Top" Height="129" Width="187" Click="button_Click"/>
+        <Button x:Name="button1" Content="2" HorizontalAlignment="Left" Margin="367,145,0,0" VerticalAlignment="Top" Height="46" Width="66" Click="button1_Click"/>
+        <Button x:Name="button2" Content="3" HorizontalAlignment="Left" Margin="503,145,0,0" VerticalAlignment="Top" Click="button2_Click" Height="46" Width="66"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="358,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="52" Width="232" Text="Выбирите Порядок" TextAlignment="Center" FontSize="22" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="197,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="83" Width="236" TextAlignment="Center" FontSize="16" FontWeight="Bold"><Run FontFamily="Times New Roman" FontSize="18.6666666666667" Language="ru-ru" Text="вычисление значения определителя 2-го и 3-го порядков"/></TextBlock>
 
     </Grid>
 </Window>
